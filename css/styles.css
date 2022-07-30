@@ -1088,6 +1088,11 @@ p {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   cursor: pointer;
-  background-color: var(--blue-bg-cl);
+  background-color: #188CE8;
   color: var(--white-txt-cl);
+}
+
+.register-form-button:hover,
+.register-form-button:focus {
+  background-color: var(--blue-bg-cl);
 }
